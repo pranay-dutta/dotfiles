@@ -1,0 +1,19 @@
+# This is the config of git 
+# This stays in the users/rick1/
+
+[user]
+	name = 
+	email = 
+[http]
+	version = HTTP/2
+[core]
+	compression = 0
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[safe]
+	directory = C:/Users/rick1/OneDrive/Desktop/Learnings/Vs_code/Github_Projects/NewTicTac

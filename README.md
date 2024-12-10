@@ -17,6 +17,6 @@ Welcome to my dotfiles repository! This repository contains my personal configur
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/dotfiles.git
+git clone https://github.com/pranay-dutta/dotfiles.git
 
 ```

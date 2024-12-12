@@ -19,5 +19,3 @@ Welcome to my dotfiles repository! This repository contains my personal configur
 git clone https://github.com/pranay-dutta/dotfiles.git
 
 ```
-2. Install Dependencies
-Ensure you have the required tools installed, such as Vim/Neovim, Oh My Posh, and any other dependencies listed in the individual config files.

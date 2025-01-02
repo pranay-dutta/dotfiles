@@ -16,4 +16,4 @@
 	required = true
 	clean = git-lfs clean -- %f
 [safe]
-	directory = C:/Users/rick1/OneDrive/Desktop/Learnings/Vs_code/Github_Projects/NewTicTac
+	directory = * #every directory can be used by current user 

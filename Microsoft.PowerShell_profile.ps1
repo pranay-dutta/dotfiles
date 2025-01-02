@@ -1,5 +1,5 @@
 # Initialize Oh My Posh with custom theme
-oh-my-posh init pwsh --config 'C:\Users\rick1\AppData\Local\Programs\oh-my-posh\themes\kali.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\<username>\AppData\Local\Programs\oh-my-posh\themes\kali.omp.json' | Invoke-Expression
 
 # Unzip function using tar
 function unzip {

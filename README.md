@@ -9,7 +9,6 @@ Welcome to my dotfiles repository! This repository contains my personal configur
 - **Vim/Neovim**: Custom configurations for efficient text editing.
 - **Oh My Posh**: Terminal theme & prompt customization.
 - **Custom scripts**: Utilities and additional workflows.
-
 ---
 
 ## 🚀 Setup Instructions

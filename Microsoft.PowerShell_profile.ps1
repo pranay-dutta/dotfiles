@@ -60,6 +60,7 @@ C++, Leetcode, Chatgpt, Nvim, VsCode, Rick
 "@
 
 # Import Chocolatey profile for tab-completion support
+#The purpose of this script is to enable tab completion for Chocolatey commands like 'choco install', 'choco upgrade, etc.
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
     Import-Module "$ChocolateyProfile"

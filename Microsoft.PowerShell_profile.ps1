@@ -73,3 +73,13 @@ function ls-reactor {
 # Alias ls to use ls-reactor
 Set-Alias ls ls-reactor
 
+#Usage
+#time .\a.exe
+#Shows execution time of a .exe file
+function time {
+    param (
+        [string]$program
+    )
+    $executionTime = Measure-Command { & $program }
+    Write-Host "Execution Time: $($executionTime.TotalSeconds) seconds"
+}
